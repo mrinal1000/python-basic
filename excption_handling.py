@@ -16,5 +16,20 @@
 #     print(e)
 #     print("my message:out of range")
     
+
+# def sqr_rt(x):
+#     if x<0:
+#         raise ValueError("cannot take sqaure root of a negative number")
+#     return x**0.5
+# try:
+#     sqr_rt(-1)
+# except ValueError as e:
+#     print(e)
+# else:
+#     print("job done")
+# finally:
+#     print("yes made it bro")
+       
+
         
     
