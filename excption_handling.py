@@ -1,22 +1,20 @@
-# class ashok(Exception):
-#     pass
+# num=10
+# den=10
 # try:
-#     a=[1,2,3,4]
-#     user=int(input("enter a index:"))
-#     if user > len(a):
-#         raise ashok()
-#     else:
-#         print("the index value is:",a[user])        
-# except ashok:
-#     print("this is index error")
+#     result=num/den
+# except Exception as e:
+#     print("not possible")
+# else:
+#     print("result:",result)
+# finally:
+#     print("job done bro")
 
-def result(x,y):
-    if x/y:
-        raise ValueError("cannot be divided")
-    return x/y 
-
-try:
-    result(10,2)
-except ValueError as e:
-    print(e)
+# try:
+#     my_list=[1,2,3,4]
+#     print(my_list[5])
+# except IndexError as e:
+#     print(e)
+#     print("my message:out of range")
+    
+        
     
