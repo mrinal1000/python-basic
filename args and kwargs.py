@@ -1,11 +1,14 @@
-def add_num(*args):
+def cal_percen(**kwargs):
     sum=0
-    print("args:", args)
-    print("it is a good program")
-    for num in args:
-        sum=sum+num
-    return sum
-sum=add_num(12,1,31,43)
-print("sum:",sum)
-sum=add_num()
-print("sum:",sum)
+    print("kwargs:",kwargs)
+    print("mrinal is a hero")
+    print(len(kwargs))
+    for key,value in kwargs.items():
+        sum=sum+value
+    
+    return sum/len(kwargs)
+    
+percentage=cal_percen(math=45,bio=73,eco=76)
+print("percentage:",percentage)  
+percentage=cal_percen(math=80,bio=45)
+print("percentage:",percentage)
