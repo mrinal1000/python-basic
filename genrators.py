@@ -1,26 +1,11 @@
-# def hero():
-#     yield 1
-#     yield 2
-#     yield 3
-
-# gen=hero()
-# print(next(gen))
-# print(next(gen))
-# print(next(gen))  
-
-# def abc(x,y):
+# def fibonancii(a,b):
 #     while True:
-#         yield x
-#         x,y=y,x+y
-        
-# okay=abc(30,40)
-# for _ in range (7):
-#     print(next(okay))    
+#         yield a
+#         a,b=b,a+b
 
         
-# square_list=[x**2 for x in range(6)]
-# print(square_list)  
- 
-
-
-                   
+# xyz=fibonancii(2,5)
+# for _ in range(10):
+#     print(next(xyz))
+    
+    
